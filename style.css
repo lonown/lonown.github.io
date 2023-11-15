@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    padding: 0 auto;
+}
+
+.header {
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background: #151c39;
+    box-sizing: border-box;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner-title, .banner-description {
+    text-align: center;
+    color: wheat;
+}
+
+.banner-title {
+    font-size: 48px;
+}
+
+.banner-section {
+    padding: 100px 0px;
+    background: url(img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cards-section {
+    padding: 50px 0px;
+}
+
+.cards-title, .cards-description {
+    color: #151c39;
+    text-align: center;
+}
+
+.card {
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: white;
+    box-shadow: 0px 2px 7px 2px #9c90ff;
+}
+
+.card-link {
+    text-decoration: none;
+    color: white;
+}
+
+.card-button{
+    text-align: center;
+    background: #151c39;
+    padding: 10px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ 
+.card-title, .card-text {
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: inline-block;
+    width: 25%;
+    margin: 0px 45px;
+}
+
+.footer {
+    background: url(img/footer-bg.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.copyright {
+    color: white;
+}
+
+/* header */
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.logo-img {
+    margin-right: 40px;
+}
+.headr-menu {
+    flex-grow: 3;
+}
+
+/* Карточки */
+/* .cards-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
